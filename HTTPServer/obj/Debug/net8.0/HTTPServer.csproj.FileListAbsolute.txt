@@ -1,0 +1,14 @@
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\bin\Debug\net8.0\HTTPServer.exe
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\bin\Debug\net8.0\HTTPServer.deps.json
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\bin\Debug\net8.0\HTTPServer.runtimeconfig.json
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\bin\Debug\net8.0\HTTPServer.dll
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\bin\Debug\net8.0\HTTPServer.pdb
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.AssemblyInfoInputs.cache
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.AssemblyInfo.cs
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.csproj.CoreCompileInputs.cache
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.dll
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\refint\HTTPServer.dll
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.pdb
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.genruntimeconfig.cache
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\ref\HTTPServer.dll
