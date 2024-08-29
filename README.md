@@ -63,36 +63,36 @@ To allow requests from other devices on the same network, you may need to config
 
 3. **Verify Firewall Settings**
 
-Ensure that the rule you created is enabled and properly configured.
+   Ensure that the rule you created is enabled and properly configured.
 
 **Linux** (Using iptables)
 
 1. **Open Terminal:**
 
-Access the terminal on your Linux machine.
-Add a New Rule:
+   Access the terminal on your Linux machine.
+   Add a New Rule:
 
-Run the following command to allow traffic on port 8080:
-
-```bash
-sudo iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
-```
+   Run the following command to allow traffic on port 8080:
+   
+   ```bash
+   sudo iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
+   ```
 
 2. **Save the Configuration:**
 
-Save the iptables rules to ensure they persist after a reboot. This varies by distribution, but you can often use:
+   Save the iptables rules to ensure they persist after a reboot. This varies by distribution, but you can often use:
 
-```bash
-sudo iptables-save | sudo tee /etc/iptables/rules.v4
-```
+   ```bash
+   sudo iptables-save | sudo tee /etc/iptables/rules.v4
+   ```
 
 3. **Verify Firewall Settings:**
 
-Check your rules to ensure they are correctly applied:
-
-```bash
-sudo iptables -L
-```
+   Check your rules to ensure they are correctly applied:
+   
+   ```bash
+   sudo iptables -L
+   ```
 
 ## Accessing the Server
 
