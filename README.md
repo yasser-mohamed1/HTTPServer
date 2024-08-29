@@ -16,9 +16,9 @@ This is a basic HTTP server implemented in C# using the `HttpListener` class. It
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone git@github.com:yasser-mohamed1/HTTPServer.git
-   ```
+```bash
+git clone git@github.com:yasser-mohamed1/HTTPServer.git
+```
 
 2. **Build the Project:**
 
@@ -49,21 +49,50 @@ To allow requests from other devices on the same network, you may need to config
 
 1. **Open Windows Defender Firewall**
 
-1. Search for "Windows Defender Firewall" in the Start menu and open it.
+   1. Search for "Windows Defender Firewall" in the Start menu and open it.
 
-1. **Add a New Inbound Rule**
+2. **Add a New Inbound Rule**
 
-1. Click on "Advanced settings" on the left pane.
-1. Select "Inbound Rules" and click "New Rule…" on the right pane.
-1. Choose "Port" and click "Next".
-1. Select "TCP" and enter 8080 in the "Specific local ports" field, then click "Next".
-1. Choose "Allow the connection" and click "Next".
-1. Check all the profiles (Domain, Private, Public) and click "Next".
-1. Name the rule (e.g., "Allow HTTP Server") and click "Finish".
+   1. Click on "Advanced settings" on the left pane.
+   1. Select "Inbound Rules" and click "New Rule…" on the right pane.
+   1. Choose "Port" and click "Next".
+   1. Select "TCP" and enter 8080 in the "Specific local ports" field, then click "Next".
+   1. Choose "Allow the connection" and click "Next".
+   1. Check all the profiles (Domain, Private, Public) and click "Next".
+   1. Name the rule (e.g., "Allow HTTP Server") and click "Finish".
 
-1. **Verify Firewall Settings**
+3. **Verify Firewall Settings**
 
 Ensure that the rule you created is enabled and properly configured.
+
+**Linux** (Using iptables)
+
+1. **Open Terminal:**
+
+Access the terminal on your Linux machine.
+Add a New Rule:
+
+Run the following command to allow traffic on port 8080:
+
+```bash
+sudo iptables -A INPUT -p tcp --dport 8080 -j ACCEPT
+```
+
+2. **Save the Configuration:**
+
+Save the iptables rules to ensure they persist after a reboot. This varies by distribution, but you can often use:
+
+```bash
+sudo iptables-save | sudo tee /etc/iptables/rules.v4
+```
+
+3. **Verify Firewall Settings:**
+
+Check your rules to ensure they are correctly applied:
+
+```bash
+sudo iptables -L
+```
 
 ## Accessing the Server
 
