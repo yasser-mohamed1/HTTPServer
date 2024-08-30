@@ -21,7 +21,7 @@ class SimpleHttpServer
             // Wait for an incoming client request asynchronously
             HttpListenerContext context = await listener.GetContextAsync();
 
-            Task.Run(() => ProcessRequest(context));
+            _ = Task.Run(() => ProcessRequest(context));
         }
     }
 

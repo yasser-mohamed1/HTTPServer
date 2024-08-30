@@ -12,3 +12,4 @@ C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\refint\HTTP
 C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.pdb
 C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.genruntimeconfig.cache
 C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\ref\HTTPServer.dll
+C:\Users\Ssofian\source\repos\HTTPServer\HTTPServer\obj\Debug\net8.0\HTTPServer.sourcelink.json
